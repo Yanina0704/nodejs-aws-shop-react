@@ -9,7 +9,7 @@ export const handlers = [
   rest.get(`${API_PATHS.product}/products`, (req, res, ctx) => {
     return res(ctx.status(200), ctx.delay(), ctx.json<Product[]>(products));
   }),
-  rest.put(`${API_PATHS.product}/products`, (req, res, ctx) => {
+  rest.post(`${API_PATHS.product}/products`, (req, res, ctx) => {
     return res(ctx.status(200));
   }),
   rest.delete(`${API_PATHS.product}/products/:id`, (req, res, ctx) => {
