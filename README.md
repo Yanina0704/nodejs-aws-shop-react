@@ -25,6 +25,14 @@ Starts the project in dev mode with mocked API on local environment.
 
 Builds the project for production in `dist` folder.
 
+### `deploy`
+
+Deploys the project to your AWS account.
+
+### `destroy`
+
+Deletes the project from your AWS environment.
+
 ### `preview`
 
 Starts the project in production mode on local environment.
